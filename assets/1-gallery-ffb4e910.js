@@ -8,4 +8,4 @@ import{S as e}from"./vendor-10cb7c31.js";const n=[{preview:"https://cdn.pixabay.
 	  	   	/>
 	     </a>
        </li>`).join("")}o.insertAdjacentHTML("afterbegin",c(n));const s=new e(".gallery a",{captionsData:"alt",captionDelay:250});s.show();
-//# sourceMappingURL=1-gallery-0274f9b3.js.map
+//# sourceMappingURL=1-gallery-ffb4e910.js.map
