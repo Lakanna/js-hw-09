@@ -27,8 +27,15 @@
 .title{
   margin-top: 40px;
   margin-bottom: 40px;
+  text-align: center;
+  background: -webkit-linear-gradient(#02672e, #c3f370);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    	font-size:30px;
+  }
 
-}
+
 .gallery{
   display: flex;
   flex-wrap: wrap;
@@ -39,8 +46,14 @@
 .gallery-item{
   width: 350px;
   height: 250px;
+  /* overflow: hidden; */
 }
 
 .gallery-image{
   height: 100%;
+  transition: transform 0.25s;
+}
+
+.gallery-item:hover .gallery-image{
+  transform: scale(1.1);
 }
